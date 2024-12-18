@@ -1,6 +1,6 @@
-# FABRID Policies for SCIONLab
+# FABRID Global Policies for SCIONLab
 
-This repository contains a mapping of policies to policy descriptions for **FABRID** in **SCIONLab**. Each policy is stored in JSON format in their own file.
+This repository contains a mapping of global policies to policy descriptions for **FABRID** in **SCIONLab**. Each policy is stored in JSON format in their own file.
 
 ## Overview
 FABRID is a framework for SCION that allows AS operators to announce policies for their intra-AS paths. These policies can be thought of as additional path constraints: an end host can select a policy during path selection, which will ensure that their data packets are only forwarded over the policy-compliant intra-AS Path. An example of such a policy would be to denote a high-bandwidth intra-AS path or a low-latency intra-AS path. For more details about the design and functionality of FABRID, please refer to the [FABRID Design Document](https://github.com/netsec-ethz/scion/blob/scionlab/doc/dev/design/FABRID.rst).
